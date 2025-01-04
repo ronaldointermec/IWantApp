@@ -5,25 +5,67 @@
     "version": "1.0"
   },
   "paths": {
-    "/weatherforecast": {
+    "/categories": {
       "get": {
         "tags": [
-          "IWantApp"
+          "CategoryGetAll"
         ],
-        "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "CategoryPost"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequest"
               }
             }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/categories/{id}": {
+      "put": {
+        "tags": [
+          "CategoryPut"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoryRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
           }
         }
       }
@@ -31,25 +73,15 @@
   },
   "components": {
     "schemas": {
-      "WeatherForecast": {
+      "CategoryRequest": {
         "type": "object",
         "properties": {
-          "date": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "summary": {
+          "name": {
             "type": "string",
             "nullable": true
           },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
+          "active": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
