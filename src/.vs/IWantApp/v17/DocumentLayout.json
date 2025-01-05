@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\categories\\categorypost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\usuario1\\documents\\ronaldo\\projetos\\iwantapp\\src\\endpoints\\categories\\categoryput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\categories\\categoryput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\usuario1\\documents\\ronaldo\\projetos\\iwantapp\\src\\domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "CategoryPut.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryPut.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Categories\\CategoryPut.cs",
+              "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryPut.cs",
+              "RelativeToolTip": "Endpoints\\Categories\\CategoryPut.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:22:31.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Infra\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infra\\Data\\ApplicationDbContext.cs",
@@ -38,8 +55,7 @@
               "RelativeToolTip": "Infra\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:07:58.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:07:58.73Z"
             },
             {
               "$type": "Document",
@@ -49,14 +65,14 @@
               "RelativeDocumentMoniker": "Endpoints\\Categories\\CategoryPost.cs",
               "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryPost.cs",
               "RelativeToolTip": "Endpoints\\Categories\\CategoryPost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T19:56:42.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Domain\\Entity.cs",
               "RelativeDocumentMoniker": "Domain\\Entity.cs",
@@ -75,7 +91,7 @@
               "RelativeDocumentMoniker": "Domain\\Products\\Category.cs",
               "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Domain\\Products\\Category.cs",
               "RelativeToolTip": "Domain\\Products\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T19:47:43.167Z",
               "EditorCaption": ""

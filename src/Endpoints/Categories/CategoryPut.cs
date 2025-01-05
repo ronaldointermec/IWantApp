@@ -6,15 +6,21 @@ namespace IWantApp.Endpoints.Categories;
 
 public class CategoryPut
 {
-    public static string Template => "/categories/{id}";
+    public static string Template => "/categories/{id:guid}";
     public static string[] Methods => new string[] { HttpMethod.Put.ToString() };
     public static Delegate Handle => Action;
 
-    public static IResult Action( [FromRoute] Guid id, CategoryRequest categoryRequest, ApplicationDbContext context)
+    public static IResult Action([FromRoute] Guid id, CategoryRequest categoryRequest, ApplicationDbContext context)
 
     {
-        var outra_forma_de_fazer = context.Categories.FirstOrDefault(c => c.Id == id);
+
+        //var maneira_ansinada_no_curso= context.Categories.FirstOrDefault(c => c.Id == id);
         var category = context.Categories.Where(c => c.Id == id).FirstOrDefault();
+
+
+        if (category == null)
+            return Results.NotFound();
+
         category.Name = categoryRequest.Name;
         category.Active = categoryRequest.Active;
 
@@ -22,5 +28,5 @@ public class CategoryPut
 
         return Results.Ok(category);
     }
-        
+
 }

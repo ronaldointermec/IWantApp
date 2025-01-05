@@ -40,7 +40,7 @@
   {
     "ContainingType": "IWantApp.Endpoints.Categories.CategoryPut",
     "Method": "Action",
-    "RelativePath": "categories/{id}",
+    "RelativePath": "categories/{id:guid}",
     "HttpMethod": "PUT",
     "IsController": false,
     "Order": 0,
