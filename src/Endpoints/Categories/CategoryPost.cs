@@ -9,21 +9,19 @@ public class CategoryPost
     public static string[] Methods => new string[] { HttpMethod.Post.ToString() };
     public static Delegate Handle => Action;
 
-    public static IResult Action( CategoryRequest categoryRequest, ApplicationDbContext context)
+    public static IResult Action(CategoryRequest categoryRequest, ApplicationDbContext context)
     {
         var category = new Category(categoryRequest.Name, "Miguel", "Lorena");
 
-        if(!category.IsValid )
+        if (!category.IsValid)
         {
-            var erros = category.Notifications
-                .GroupBy(g => g.Key)
-                .ToDictionary(g => g.Key, g => g.Select(x => x.Message).ToArray());
-            return Results.ValidationProblem(erros);
+
+            return Results.ValidationProblem(category.Notifications.ConvertToProblemDetails());
         }
         context.Categories.Add(category);
         context.SaveChanges();
 
         return Results.Created($"/categories/{category.Id}", category.Id);
     }
-        
+
 }

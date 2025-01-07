@@ -5,7 +5,8 @@ namespace IWantApp.Domain.Products;
 
 public class Category : Entity
 {
-    public bool Active { get; set; }
+    public string Name { get; private set; }
+    public bool Active { get; private set; }
 
     public Category()
     {
@@ -14,13 +15,7 @@ public class Category : Entity
 
     public Category(string nome, string createdBy, string editedBy)
     {
-        var contract = new Contract<Category>()
-            .IsNotNullOrEmpty(nome, "Name")
-            .IsGreaterOrEqualsThan(nome, 3, "Name")
-            .IsNotNullOrEmpty(createdBy, "CreatedBy")
-            .IsNotNullOrEmpty(editedBy, "EditedBy");
 
-        AddNotifications(contract);
         Active = true;
         Name = nome;
         CreatedBy = createdBy;
@@ -28,6 +23,26 @@ public class Category : Entity
         EditedOn = DateTime.Now;
         CreatedOn = DateTime.Now;
 
+        Validate();
+
     }
 
+    private void Validate()
+    {
+        var contract = new Contract<Category>()
+            .IsNotNullOrEmpty(Name, "Name")
+            .IsGreaterOrEqualsThan(Name, 3, "Name")
+            .IsNotNullOrEmpty(CreatedBy, "CreatedBy")
+            .IsNotNullOrEmpty(EditedBy, "EditedBy");
+
+        AddNotifications(contract);
+    }
+
+    public void EditInfo(string name, bool active)
+    {
+        Active = active;
+        Name = name;
+
+        Validate();
+    }
 }
