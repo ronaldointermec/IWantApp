@@ -11,18 +11,22 @@ public class EmployeePost
 
     public static IResult Action(EmployeeRequest employeeRequest, UserManager<IdentityUser> userManager)
     {
-         var user = new IdentityUser {UserName = employeeRequest.Email,  Email = employeeRequest.Email };
+        var user = new IdentityUser { UserName = employeeRequest.Email, Email = employeeRequest.Email };
 
         var result = userManager.CreateAsync(user, employeeRequest.Password).Result;
-        if (!result.Succeeded) 
-            return Results.BadRequest(result.Errors.First());
-        var claiamResult = userManager.AddClaimAsync(user, new Claim("EmployeeCode", employeeRequest.EmployeeCode)).Result;
-        if (!claiamResult.Succeeded)
-            return Results.BadRequest(result.Errors.First());
+        if (!result.Succeeded)
+            return Results.ValidationProblem(result.Errors.ConvertToProblemDetails());
 
-         claiamResult = userManager.AddClaimAsync(user, new Claim("Name", employeeRequest.Name)).Result;
+        var userClaims = new List<Claim>
+        {
+            new Claim("EmployeeCode", employeeRequest.EmployeeCode),
+            new Claim("Name", employeeRequest.Name)
+        };
+
+        var claiamResult = userManager.AddClaimsAsync(user, userClaims ).Result;
         if (!claiamResult.Succeeded)
             return Results.BadRequest(result.Errors.First());
+     
 
         return Results.Created($"/employees/{user.Id}", user.Id);
     }
