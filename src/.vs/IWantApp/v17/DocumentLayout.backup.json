@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\",
+  "WorkspaceRootPath": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\usuario1\\documents\\ronaldo\\projetos\\iwantapp\\src\\endpoints\\employees\\employeepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\employees\\employeepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\usuario1\\documents\\ronaldo\\projetos\\iwantapp\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\usuario1\\documents\\ronaldo\\projetos\\iwantapp\\src\\endpoints\\problemdetailsextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\problemdetailsextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\employees\\employeegetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\employees\\employeegetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\usuario1\\documents\\ronaldo\\projetos\\iwantapp\\src\\endpoints\\employees\\employeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\employees\\employeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\categories\\categorypost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\categories\\categorypost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\usuario1\\documents\\ronaldo\\projetos\\iwantapp\\src\\infra\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:infra\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\security\\tokenpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\security\\tokenpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\security\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\security\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProblemDetailsExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\ProblemDetailsExtentions.cs",
-              "RelativeDocumentMoniker": "Endpoints\\ProblemDetailsExtentions.cs",
-              "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\ProblemDetailsExtentions.cs",
-              "RelativeToolTip": "Endpoints\\ProblemDetailsExtentions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T01:27:37.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeRequest.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Employees\\EmployeeRequest.cs",
-              "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeRequest.cs",
-              "RelativeToolTip": "Endpoints\\Employees\\EmployeeRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T19:07:35.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeePost.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeePost.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Employees\\EmployeePost.cs",
-              "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeePost.cs",
-              "RelativeToolTip": "Endpoints\\Employees\\EmployeePost.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T19:03:33.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Title": "EmployeeGetAll.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeGetAll.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Employees\\EmployeeGetAll.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeGetAll.cs",
+              "RelativeToolTip": "Endpoints\\Employees\\EmployeeGetAll.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T00:42:19.966Z",
+              "WhenOpened": "2025-01-15T18:56:20.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryPost.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryPost.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Categories\\CategoryPost.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryPost.cs",
+              "RelativeToolTip": "Endpoints\\Categories\\CategoryPost.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T17:41:32.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T17:08:19.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Infra\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infra\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario1\\Documents\\Ronaldo\\projetos\\IWantApp\\src\\Infra\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infra\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Security\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\LoginRequest.cs",
+              "RelativeToolTip": "Endpoints\\Security\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T00:38:13.114Z"
+              "WhenOpened": "2025-01-15T16:32:23.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenPost.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\TokenPost.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Security\\TokenPost.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\TokenPost.cs",
+              "RelativeToolTip": "Endpoints\\Security\\TokenPost.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:29:15.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:27:53.101Z",
+              "EditorCaption": ""
             }
           ]
         }

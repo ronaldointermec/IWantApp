@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 
 namespace IWantApp.Endpoints.Employees;
 
 public class EmployeePost
+
 {
     public static string Template => "/employees";
     public static string[] Methods => new string[] { HttpMethod.Post.ToString() };
