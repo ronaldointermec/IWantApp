@@ -1,0 +1,47 @@
+version: "2"
+services:
+  sqlserver:
+    logging:
+      driver: "json-file"
+      options:
+          max-size: "10m" 
+    restart: always  
+    container_name: sqlserver
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "Honeywell#@1"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql-data:/var/opt/mssql    
+#  api_refurbish:
+#    logging:
+#      driver: "json-file"
+#      options:
+#          max-size: "10m"
+#    restart: always
+#    container_name: api_refurbish
+#    build: 
+#      context: ../api_refurbish
+#      dockerfile: ../api_refurbish/Dockerfile
+#    ports:
+#      - 8096:3333
+#    # volumes:
+#    #   - ../api_refurbish:/usr/src/app
+#  web_refurbish:
+#    logging:
+#      driver: "json-file"
+#      options:
+#          max-size: "10m"  
+#    restart: always
+#    container_name: web_refurbish
+#    build: 
+#      dockerfile: ../web_refurbish/Dockerfile
+#      context: ../web_refurbish
+#    ports:
+#      - 8095:80
+volumes:
+ sql-data:
+   driver: local     
