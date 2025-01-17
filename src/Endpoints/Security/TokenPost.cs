@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.IdentityModel.Tokens;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-namespace IWantApp.Endpoints.Security;
+﻿namespace IWantApp.Endpoints.Security;
 
 public class TokenPost
 
@@ -42,6 +36,7 @@ public class TokenPost
                 ),
             Audience = configuration["JwtBearerTokenSettings:Audience"],
             Issuer = configuration["JwtBearerTokenSettings:Issuer"],
+            //Expires = DateTime.UtcNow.AddSeconds(30)
         };
 
         var tokenHandler = new JwtSecurityTokenHandler();

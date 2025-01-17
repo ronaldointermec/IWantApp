@@ -13,7 +13,7 @@ public class QueryAllUserWithClaimName
         this.configuration = configuration;
     }
 
-    public IEnumerable<EmployeeResponse> Execute(int page, int rows)
+    public async Task<IEnumerable<EmployeeResponse>> Execute(int page, int rows)
     {
         var db = new SqlConnection(configuration["ConnectionStrings:IWantDb"]);
 
@@ -27,7 +27,7 @@ public class QueryAllUserWithClaimName
             OFFSET (@page -1) * @rows ROWS FETCH NEXT @rows ROWS ONLY";
 
         // o Dapper converte a query em uma classe, no vaso EmployeeResponse
-        return db.Query<EmployeeResponse>(
+        return  await db.QueryAsync<EmployeeResponse>(
        query,
        new { page, rows } // estes parâmetros vão ser usados na query (objeto anônimo)
        );

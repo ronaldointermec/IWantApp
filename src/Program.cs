@@ -1,13 +1,5 @@
-using IWantApp.Endpoints.Categories;
-using IWantApp.Endpoints.Employees;
-using IWantApp.Endpoints.Security;
-using IWantApp.Infra.Data;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using System.Text;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddSqlServer<ApplicationDbContext>(builder.Configuration.GetConnectionString("ConnectionStrings:IWantDb"));
@@ -37,6 +29,7 @@ builder.Services.AddAuthentication(x =>
         ValidateAudience = true,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
+        ClockSkew = TimeSpan.Zero, // remove os 5 minutos default de tolerância 
         ValidIssuer = builder.Configuration["JwtBearerTokenSettings:Issuer"],
         ValidAudience = builder.Configuration["JwtBearerTokenSettings:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(
@@ -58,8 +51,8 @@ builder.Services.AddAuthorization(
     options.AddPolicy("EmployeePolicy", p =>
     p.RequireAuthenticatedUser().RequireClaim("EmployeeCode"));
     // cria uma politica para um usuário de codígo 008
-    options.AddPolicy("Employee008Policy", p =>
-    p.RequireAuthenticatedUser().RequireClaim("EmployeeCode", "008"));
+    //options.AddPolicy("Employee008Policy", p =>
+    //p.RequireAuthenticatedUser().RequireClaim("EmployeeCode", "008"));
 }
 );
 // registrar a classe como serviço
@@ -95,6 +88,8 @@ builder.Services.AddSwaggerGen(
             new string[] {}
         }
     });
+
+    c.EnableAnnotations();
 }
 );
 
@@ -122,5 +117,18 @@ app.MapMethods(EmployeePost.Template, EmployeePost.Methods, EmployeePost.Handle)
 app.MapMethods(EmployeeGetAll.Template, EmployeeGetAll.Methods, EmployeeGetAll.Handle);
 app.MapMethods(TokenPost.Template, TokenPost.Methods, TokenPost.Handle);
 
+app.UseExceptionHandler("/error");
+app.Map("/error", (HttpContext http) =>
+{
+    var error = http.Features?.Get<IExceptionHandlerFeature>()?.Error;
+
+    if (error != null)
+    {
+        if (error is SqlException)
+            return Results.Problem(title: "Erro ao conectar ao banco de dados", statusCode: 500);
+    }
+
+    return Results.Problem(title: "Ocorreu um erro", statusCode: 500);
+});
 
 app.Run();

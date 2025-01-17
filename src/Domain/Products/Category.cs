@@ -38,11 +38,12 @@ public class Category : Entity
         AddNotifications(contract);
     }
 
-    public void EditInfo(string name, bool active)
+    public void EditInfo(string name, bool active, string editedBy)
     {
         Active = active;
         Name = name;
-
+        EditedBy = editedBy ?? string.Empty;
+        EditedOn = DateTime.Now;
         Validate();
     }
 }

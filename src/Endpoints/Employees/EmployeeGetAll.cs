@@ -1,11 +1,4 @@
-﻿
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Data.SqlClient;
-using Dapper;
-using IWantApp.Infra.Data;
-using Microsoft.AspNetCore.Authorization;
-
-namespace IWantApp.Endpoints.Employees;
+﻿namespace IWantApp.Endpoints.Employees;
 
 public class EmployeeGetAll
 {
@@ -16,7 +9,7 @@ public class EmployeeGetAll
 
     // solução com dapper
     [Authorize(Policy = "EmployeePolicy")]
-    public static IResult Action(int? page, int? rows, QueryAllUserWithClaimName query)
+    public static async Task<IResult> Action(int? page, int? rows, QueryAllUserWithClaimName query)
 
     {
 
@@ -29,17 +22,17 @@ public class EmployeeGetAll
         // Validate rows
         if (!rows.HasValue || rows.Value <= 0)
         {
-            return Results.BadRequest("Linhas precisam ser positivo e inteiro");
+             Results.BadRequest("Linhas precisam ser positivo e inteiro");
         }
 
-        return Results.Ok(query.Execute(page.Value, rows.Value));
+        var result = await query.Execute(page.Value, rows.Value);
+        return Results.Ok(result);
 
     }
 
     //// solução com IF core com paginação
     //public static IResult Action(int page, int rows, UserManager<IdentityUser> userManager)
     //{
-    //    Console.WriteLine("Caiu aqui");
     //    var users =  userManager.Users.Skip((page - 1) * rows).Take(rows).ToList();
     //    var employees = new List<EmployeeResponse>();
 

@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "r1Xq8qz5H62JTOfGl5GOv1ZuFgpSX6vF1TNsrqtm02k=",
+  "Hash": "S4MykuXC7S+tTWXKNQqxlNlIe0Mx5sQq+2utVSRszAA=",
   "Source": "IWantApp",
   "BasePath": "_content/IWantApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

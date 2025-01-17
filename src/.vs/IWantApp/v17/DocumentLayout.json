@@ -7,28 +7,16 @@
       "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\categories\\categorygetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\categories\\categorygetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\security\\tokenpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\security\\tokenpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\employees\\employeepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\employees\\employeepost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\employees\\employeegetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\employees\\employeegetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\categories\\categorypost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\categories\\categorypost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\security\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\security\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\iwantapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:iwantapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,89 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeePost.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeePost.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Employees\\EmployeePost.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeePost.cs",
-              "RelativeToolTip": "Endpoints\\Employees\\EmployeePost.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T19:32:16.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeGetAll.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeGetAll.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Employees\\EmployeeGetAll.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeGetAll.cs",
-              "RelativeToolTip": "Endpoints\\Employees\\EmployeeGetAll.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T18:56:20.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryPost.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryPost.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Categories\\CategoryPost.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryPost.cs",
-              "RelativeToolTip": "Endpoints\\Categories\\CategoryPost.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T17:41:32.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-15T17:08:19.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Security\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\LoginRequest.cs",
-              "RelativeToolTip": "Endpoints\\Security\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T16:32:23.633Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TokenPost.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\TokenPost.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Security\\TokenPost.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\TokenPost.cs",
-              "RelativeToolTip": "Endpoints\\Security\\TokenPost.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBgAAAA0AAAAAAAAAA==",
+              "Title": "CategoryGetAll.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryGetAll.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Categories\\CategoryGetAll.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Categories\\CategoryGetAll.cs",
+              "RelativeToolTip": "Endpoints\\Categories\\CategoryGetAll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T16:29:15.703Z",
+              "WhenOpened": "2025-01-17T02:14:22.76Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -130,9 +53,35 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAH8AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T16:27:53.101Z",
+              "WhenOpened": "2025-01-17T02:08:26.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IWantApp",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\IWantApp.csproj",
+              "RelativeDocumentMoniker": "IWantApp.csproj",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\IWantApp.csproj",
+              "RelativeToolTip": "IWantApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-17T02:07:03.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenPost.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\TokenPost.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Security\\TokenPost.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Security\\TokenPost.cs",
+              "RelativeToolTip": "Endpoints\\Security\\TokenPost.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwAAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T02:06:35.52Z",
               "EditorCaption": ""
             }
           ]
