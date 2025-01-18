@@ -3,6 +3,7 @@ global using global::Flunt.Notifications;
 global using global::IWantApp.Domain.Products;
 global using global::IWantApp.Endpoints.Categories;
 global using global::IWantApp.Endpoints.Employees;
+global using global::IWantApp.Endpoints.Products;
 global using global::IWantApp.Endpoints.Security;
 global using global::IWantApp.Infra.Data;
 global using global::Microsoft.AspNetCore.Authentication.JwtBearer;

@@ -114,6 +114,44 @@
     ]
   },
   {
+    "ContainingType": "IWantApp.Endpoints.Products.ProductPost",
+    "Method": "Action",
+    "RelativePath": "products",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductRequest",
+        "Type": "IWantApp.Endpoints.Products.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IWantApp.Domain.Products.ProductGetAll",
+    "Method": "Action",
+    "RelativePath": "products",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "IWantApp.Endpoints.Security.TokenPost",
     "Method": "Action",
     "RelativePath": "token",

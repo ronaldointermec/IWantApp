@@ -30,6 +30,7 @@
 		<Using Include="IWantApp.Endpoints.Employees" />
 		<Using Include="IWantApp.Endpoints.Security" />
 		<Using Include="IWantApp.Endpoints.Employees" />
+		<Using Include="IWantApp.Endpoints.Products;" />
 	</ItemGroup>
 
 	<ItemGroup>
