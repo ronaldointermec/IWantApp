@@ -1,5 +1,6 @@
 using IWantApp.Endpoints.Products;
 using Microsoft.AspNetCore.Diagnostics;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -145,6 +146,8 @@ app.Map("/error", (HttpContext http) =>
     {
         if (error is SqlException)
             return Results.Problem(title: "Erro ao conectar ao banco de dados", statusCode: 500);
+        else if (error is BadHttpRequestException)
+            return Results.Problem(title: "Erro na conversão de dados. Veja todas as informações enviadas", statusCode :500);
     }
 
     return Results.Problem(title: "Ocorreu um erro", statusCode: 500);
