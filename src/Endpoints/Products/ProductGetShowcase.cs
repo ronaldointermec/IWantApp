@@ -8,26 +8,25 @@ public class ProductGetShowcase
 
     [AllowAnonymous]
     [SwaggerOperation(summary:"Exibe produtos", description: "Esta rota permite que todos as pessoas acessem a vitrine de produtos, mesmo que não estejam logados")]
-    public static async Task<IResult> Action( int? page, int? row, string? orderBy, ApplicationDbContext context)
+    public static async Task<IResult> Action(  ApplicationDbContext context, int page = 1, int row = 10, string orderBy = "name")
     {
 
-        if (page == null)
-            page = 1;
-        if (row == null)
-            row = 1;
-        if (string.IsNullOrEmpty(orderBy))
-            orderBy = "name";
+        if (row > 10)
+            return Results.Problem(title: "Máximo permitido de 10 linhas", statusCode: 400);
 
-        // só vai no banco de dados quanto a consulta estiver pronta
-        var queryBase = context.Products.Include(p => p.Category)
+        // só vai no banco de dados quando a consulta estiver pronta
+        //AsNoTracking : usar em constulas. objeto não vai ser rastreado na memória - fica mais performático 
+        var queryBase = context.Products.AsNoTracking().Include(p => p.Category)
             .Where(p => p.HasStock && p.Category.Active);
 
         if (orderBy == "name")
             queryBase = queryBase.OrderBy(p => p.Name);
-        else
+        else if (orderBy == "price")
             queryBase = queryBase.OrderBy(p => p.Price);
+        else
+            return Results.Problem(title: "Ordenação apenas por nome ou preço", statusCode: 400);
 
-        var queryFilter = queryBase.Skip((page.Value - 1) * row.Value).Take(row.Value);
+        var queryFilter = queryBase.Skip((page - 1) * row).Take(row);
         
        var products  = queryFilter.ToList();
 

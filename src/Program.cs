@@ -1,5 +1,6 @@
+using IWantApp.Domain.Users;
+using IWantApp.Endpoints.Clients;
 using Microsoft.AspNetCore.Diagnostics;
-using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -71,8 +72,10 @@ builder.Services.AddAuthorization(
 );
 // registrar a classe como serviço
 builder.Services.AddScoped<QueryAllUserWithClaimName>();
+builder.Services.AddScoped<UserCreator>();
 
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(
     c =>
 {
@@ -136,6 +139,8 @@ app.MapMethods(ProductPost.Template, ProductPost.Methods, ProductPost.Handle);
 app.MapMethods(ProductGetAll.Template, ProductGetAll.Methods, ProductGetAll.Handle);
 app.MapMethods(ProductGetShowcase.Template, ProductGetShowcase.Methods, ProductGetShowcase.Handle);
 
+app.MapMethods(ClientPost.Template, ClientPost.Methods, ClientPost.Handle);
+app.MapMethods(ClientGet.Template, ClientGet.Methods, ClientGet.Handle);
 
 app.UseExceptionHandler("/error");
 // Rota para lidar com os erros da applição

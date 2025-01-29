@@ -65,6 +65,44 @@
     ]
   },
   {
+    "ContainingType": "IWantApp.Endpoints.Clients.ClientPost",
+    "Method": "Action",
+    "RelativePath": "clients",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClientRequest",
+        "Type": "IWantApp.Endpoints.Clients.ClientRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IWantApp.Endpoints.Clients.ClientGet",
+    "Method": "Action",
+    "RelativePath": "clients",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "IWantApp.Endpoints.Employees.EmployeePost",
     "Method": "Action",
     "RelativePath": "employees",
@@ -161,12 +199,12 @@
     "Parameters": [
       {
         "Name": "page",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Int32",
         "IsRequired": false
       },
       {
         "Name": "row",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Int32",
         "IsRequired": false
       },
       {
