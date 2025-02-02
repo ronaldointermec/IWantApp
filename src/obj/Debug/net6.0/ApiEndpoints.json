@@ -152,6 +152,50 @@
     ]
   },
   {
+    "ContainingType": "IWantApp.Endpoints.Orders.OrderPost",
+    "Method": "Action",
+    "RelativePath": "orders",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderRequest",
+        "Type": "IWantApp.Endpoints.Orders.OrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IWantApp.Endpoints.Orders.OrderGet",
+    "Method": "Action",
+    "RelativePath": "orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "IWantApp.Endpoints.Products.ProductPost",
     "Method": "Action",
     "RelativePath": "products",

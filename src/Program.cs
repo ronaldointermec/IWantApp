@@ -1,5 +1,6 @@
 using IWantApp.Domain.Users;
 using IWantApp.Endpoints.Clients;
+using IWantApp.Endpoints.Orders;
 using Microsoft.AspNetCore.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -65,6 +66,10 @@ builder.Services.AddAuthorization(
 
     options.AddPolicy("EmployeePolicy", p =>
     p.RequireAuthenticatedUser().RequireClaim("EmployeeCode"));
+
+    options.AddPolicy("CpfPolicy", p =>
+    p.RequireAuthenticatedUser().RequireClaim("Cpf"));
+
     // cria uma politica para um usuário de codígo 008
     //options.AddPolicy("Employee008Policy", p =>
     //p.RequireAuthenticatedUser().RequireClaim("EmployeeCode", "008"));
@@ -142,6 +147,9 @@ app.MapMethods(ProductGetShowcase.Template, ProductGetShowcase.Methods, ProductG
 app.MapMethods(ClientPost.Template, ClientPost.Methods, ClientPost.Handle);
 app.MapMethods(ClientGet.Template, ClientGet.Methods, ClientGet.Handle);
 
+app.MapMethods(OrderPost.Template, OrderPost.Methods, OrderPost.Handle);
+app.MapMethods(OrderGet.Template, OrderGet.Methods, OrderGet.Handle);
+
 app.UseExceptionHandler("/error");
 // Rota para lidar com os erros da applição
 app.Map("/error", (HttpContext http) =>
@@ -153,7 +161,7 @@ app.Map("/error", (HttpContext http) =>
         if (error is SqlException)
             return Results.Problem(title: "Erro ao conectar ao banco de dados", statusCode: 500);
         else if (error is BadHttpRequestException)
-            return Results.Problem(title: "Erro na conversão de dados. Veja todas as informações enviadas", statusCode :500);
+            return Results.Problem(title: "Erro na conversão de dados. Veja todas as informações enviadas", statusCode: 500);
     }
 
     return Results.Problem(title: "Ocorreu um erro", statusCode: 500);

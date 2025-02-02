@@ -18,6 +18,7 @@ public class TokenPost
         log.LogInformation("LogInformation");
         log.LogWarning("CLogWarning");
         log.LogError("LogError");
+
         var user = userManager.FindByEmailAsync(loginRequest.Email).Result;
         if (user == null)
             return Results.BadRequest();

@@ -15,7 +15,7 @@ public class ProductGetShowcase
             return Results.Problem(title: "Máximo permitido de 10 linhas", statusCode: 400);
 
         // só vai no banco de dados quando a consulta estiver pronta
-        //AsNoTracking : usar em constulas. objeto não vai ser rastreado na memória - fica mais performático 
+        //AsNoTracking : usar em consultas. objeto não vai ser rastreado na memória - fica mais performático 
         var queryBase = context.Products.AsNoTracking().Include(p => p.Category)
             .Where(p => p.HasStock && p.Category.Active);
 
@@ -30,7 +30,7 @@ public class ProductGetShowcase
         
        var products  = queryFilter.ToList();
 
-        var results = products.Select(p => new ProductResponse(p.Name, p.Category.Name, p.Description, p.HasStock, p.Price, p.Active));
+        var results = products.Select(p => new ProductResponse(p.Id, p.Name, p.Category.Name, p.Description, p.HasStock, p.Price, p.Active));
 
         return Results.Ok(results);
     }

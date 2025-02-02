@@ -1,16 +1,20 @@
 ﻿using Flunt.Validations;
+using IWantApp.Domain.Orders;
 
 namespace IWantApp.Domain.Products;
 
 public class Product : Entity
 {
-    public string Name { get; set; }
-    public Guid CategoryId { get; set; }
-    public Category Category { get; set; }
-    public string Description { get; set; }
-    public bool HasStock { get; set; }
-    public bool Active { get; set; } = true;
-    public decimal Price { get; set; }
+    public string Name { get; private set; }
+    public Guid CategoryId { get; private set; }
+    public Category Category { get; private set; }
+    public string Description { get; private set; }
+    public bool HasStock { get; private set; }
+    public bool Active { get; private set; } = true;
+    public decimal Price { get; private set; }
+    
+    //criado apenas para estabelecer relacionando N pra N com o Entity Order (o que chamamos de sujar a entidade)
+    public ICollection<Order> Orders { get; private set; }
     public Product()
     {
     }
