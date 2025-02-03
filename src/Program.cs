@@ -78,6 +78,7 @@ builder.Services.AddAuthorization(
 // registrar a classe como serviço
 builder.Services.AddScoped<QueryAllUserWithClaimName>();
 builder.Services.AddScoped<UserCreator>();
+builder.Services.AddScoped<QueryAllProductsSold>();
 
 builder.Services.AddEndpointsApiExplorer();
 
@@ -143,12 +144,14 @@ app.MapMethods(TokenPost.Template, TokenPost.Methods, TokenPost.Handle);
 app.MapMethods(ProductPost.Template, ProductPost.Methods, ProductPost.Handle);
 app.MapMethods(ProductGetAll.Template, ProductGetAll.Methods, ProductGetAll.Handle);
 app.MapMethods(ProductGetShowcase.Template, ProductGetShowcase.Methods, ProductGetShowcase.Handle);
+app.MapMethods(ProductSoldGet.Template, ProductSoldGet.Methods, ProductSoldGet.Handle);
 
 app.MapMethods(ClientPost.Template, ClientPost.Methods, ClientPost.Handle);
 app.MapMethods(ClientGet.Template, ClientGet.Methods, ClientGet.Handle);
 
 app.MapMethods(OrderPost.Template, OrderPost.Methods, OrderPost.Handle);
 app.MapMethods(OrderGet.Template, OrderGet.Methods, OrderGet.Handle);
+
 
 app.UseExceptionHandler("/error");
 // Rota para lidar com os erros da applição

@@ -266,6 +266,22 @@
     ]
   },
   {
+    "ContainingType": "IWantApp.Endpoints.Products.ProductSoldGet",
+    "Method": "Action",
+    "RelativePath": "products/sold",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "IWantApp.Endpoints.Security.TokenPost",
     "Method": "Action",
     "RelativePath": "token",

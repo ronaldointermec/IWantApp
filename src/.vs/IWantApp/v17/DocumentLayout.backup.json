@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\orders\\orderget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\orders\\orderget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\infra\\data\\queryallproductssold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:infra\\data\\queryallproductssold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\products\\productsoldget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\products\\productsoldget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\products\\productgetshowcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\products\\productgetshowcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\products\\productsoldreportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\products\\productsoldreportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\orders\\orderpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\orders\\orderpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\orders\\orderget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\orders\\orderget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\orders\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\orders\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\endpoints\\employees\\employeegetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:endpoints\\employees\\employeegetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\infra\\data\\queryalluserwithclaimname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:infra\\data\\queryalluserwithclaimname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|c:\\users\\e841371\\documents\\projetos\\iwantapp\\src\\iwantapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9B903DC-66B3-4E47-9125-41C14FE58E39}|IWantApp.csproj|solutionrelative:iwantapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,16 +50,80 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderPost.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderPost.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Orders\\OrderPost.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderPost.cs",
-              "RelativeToolTip": "Endpoints\\Orders\\OrderPost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "OrderGet.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderGet.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Orders\\OrderGet.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderGet.cs",
+              "RelativeToolTip": "Endpoints\\Orders\\OrderGet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T18:37:04.721Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-03T16:09:29.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductSoldGet.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Products\\ProductSoldGet.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductSoldGet.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Products\\ProductSoldGet.cs",
+              "RelativeToolTip": "Endpoints\\Products\\ProductSoldGet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T16:05:48.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductGetShowcase.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Products\\ProductGetShowcase.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductGetShowcase.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Products\\ProductGetShowcase.cs",
+              "RelativeToolTip": "Endpoints\\Products\\ProductGetShowcase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T16:06:06.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IWantApp",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\IWantApp.csproj",
+              "RelativeDocumentMoniker": "IWantApp.csproj",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\IWantApp.csproj",
+              "RelativeToolTip": "IWantApp.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-03T16:02:51.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductSoldReportResponse.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Products\\ProductSoldReportResponse.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Products\\ProductSoldReportResponse.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Products\\ProductSoldReportResponse.cs",
+              "RelativeToolTip": "Endpoints\\Products\\ProductSoldReportResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:56:13.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueryAllProductsSold.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Infra\\Data\\QueryAllProductsSold.cs",
+              "RelativeDocumentMoniker": "Infra\\Data\\QueryAllProductsSold.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Infra\\Data\\QueryAllProductsSold.cs*",
+              "RelativeToolTip": "Infra\\Data\\QueryAllProductsSold.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:48:13.784Z",
               "EditorCaption": ""
             },
             {
@@ -52,41 +136,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "EmployeeGetAll.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeGetAll.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Employees\\EmployeeGetAll.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Employees\\EmployeeGetAll.cs",
+              "RelativeToolTip": "Endpoints\\Employees\\EmployeeGetAll.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:18:33.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAvwFAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T00:29:52.72Z",
+              "WhenOpened": "2025-02-03T14:17:08.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderResponse.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderResponse.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Orders\\OrderResponse.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderResponse.cs",
-              "RelativeToolTip": "Endpoints\\Orders\\OrderResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "QueryAllUserWithClaimName.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Infra\\Data\\QueryAllUserWithClaimName.cs",
+              "RelativeDocumentMoniker": "Infra\\Data\\QueryAllUserWithClaimName.cs",
+              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Infra\\Data\\QueryAllUserWithClaimName.cs",
+              "RelativeToolTip": "Infra\\Data\\QueryAllUserWithClaimName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T00:04:51.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderGet.cs",
-              "DocumentMoniker": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderGet.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Orders\\OrderGet.cs",
-              "ToolTip": "C:\\Users\\E841371\\Documents\\Projetos\\IWantApp\\src\\Endpoints\\Orders\\OrderGet.cs",
-              "RelativeToolTip": "Endpoints\\Orders\\OrderGet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T21:08:05.526Z",
+              "WhenOpened": "2025-02-03T14:16:37.352Z",
               "EditorCaption": ""
             }
           ]

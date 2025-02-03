@@ -12,7 +12,6 @@ public class EmployeeGetAll
     public static async Task<IResult> Action(int? page, int? rows, QueryAllUserWithClaimName query)
 
     {
-
         // Validate page
         if (!page.HasValue || page.Value <= 0)
         {

@@ -19,6 +19,7 @@ public class EmployeePost
     {
 
         var userId = http.User.Claims.First(c => c.Type == ClaimTypes.NameIdentifier).Value;
+        
         var userClaims = new List<Claim>
         {
             new Claim("EmployeeCode", employeeRequest.EmployeeCode),
